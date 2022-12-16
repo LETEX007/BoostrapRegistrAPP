@@ -1,0 +1,73 @@
+html {
+  scroll-behavior: smooth;
+}
+.container {
+  max-width: 960px;
+}
+/*
+ * Custom translucent site header
+ */
+#navbar1 {
+  transition: top 0.3s;
+}
+#btndownloadpc:hover {
+  color: rgb(255, 255, 255);
+  background-color: #1d9325;
+}
+.site-header {
+  top: 5px;
+  background-color: #007bff;
+}
+.site-header a {
+  color: #e6e6e6;
+  transition: color 0.15s ease-in-out;
+  text-decoration: none;
+}
+.site-header a:hover {
+  color: rgb(143, 102, 32);
+  text-decoration: none;
+}
+
+/*
+ * Dummy devices (replace them with your own or something else entirely!)
+ */
+
+.product-device {
+  position: absolute;
+  right: 10%;
+  bottom: -10%;
+  width: 230px;
+  height: 440px;
+  background-color: #333;
+  border-radius: 21px;
+  transform: rotate(30deg);
+}
+
+.product-device-2 {
+  top: 50%;
+  right: auto;
+  bottom: 0;
+  left: 8%;
+  background-color: #e5e5e5;
+}
+
+#mainbody {
+  scroll-margin-block-start: 90px;
+}
+#funciones {
+  scroll-margin-block-start: 110px;
+}
+.carousel-caption {
+  color: rgb(255, 255, 255);
+  background-color: rgba(55, 39, 83, 0.85);
+}
+.footer {
+  width: 350px;
+  height: 800px;
+}
+.footer2 {
+  background-color: #007bff;
+}
+.texto-footer {
+  color: floralwhite;
+}

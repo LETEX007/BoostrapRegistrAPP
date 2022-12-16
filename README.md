@@ -1,2 +1,2 @@
-# BoostrapRegistrAPP
+# BootstrapRegistrApp
 Created with CodeSandbox
